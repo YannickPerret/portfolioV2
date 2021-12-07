@@ -8,7 +8,7 @@ const Header = () => {
                     <Link to="/" >Yannick Perret</Link>
                 </div>
                 <div className="header__mail">
-                     <p># Contact@YannickPerret.com </p>
+                     <p>@ Contact@YannickPerret.com </p>
                 </div>
                 
         </div>
