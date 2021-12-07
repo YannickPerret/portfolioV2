@@ -1,0 +1,19 @@
+.presentation{
+    display : flex;
+    background : black;
+}
+
+.presentation__image{
+}
+
+.presentation__image img{
+    transform: rotate(180deg);
+    position: absolute;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    display: block;
+    
+
+
+}
