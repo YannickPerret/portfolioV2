@@ -6,20 +6,19 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 10vh;
+    border-radius: 10px;
+    border : 1px solid black;
 
     &__list{
-        min-height: 500px;
+        height: 500px;
         min-width: 300px;
         border : 1px solid black;
-        
-        
+        margin: auto;
     }
 
     &__categories{
         list-style: none;
         padding:0;
-        
-        
         
         & > li{
             border : 1px solid green;
@@ -33,7 +32,6 @@
     }
 
     &__cards{
-        border : 1px solid red;
 
         min-width: 800px;
         min-height: 800px;

@@ -8,6 +8,7 @@ const Skills = () => {
     return (
 
         <>
+            <div style={{textAlign: 'center'}}><h1>Mon savoir faire pour construire une fusée !</h1></div>
             <div className="skill_container">
                 <div className="skill_container__list">
                     <ul className="skill_container__categories">
