@@ -74,7 +74,15 @@
         text-transform: uppercase;
         color: White;
         font-size: 1.7rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        font-family: $fonth2;
+    }
+
+    &__mail{
+      display : flex;
+      align-items: center;
+      font-style: italic;
+      font-size:14px;
+      color: #FFE0BE;
     }
 
 }
@@ -82,7 +90,7 @@
 .cover{
     display : flex;
     min-height: 100vh;
-    background: URL('../assets/images/header_cover1.jpg');
+    background: URL('../assets/images/header_cover3.jpg');
 
     z-index: 2;
     background-size: cover;
@@ -107,6 +115,25 @@
         }
     }
 
+}
+
+.content__container__button{
+  display:flex;
+  margin-top : 5vh;
+  justify-content: space-around;
+  
+}
+.button__discover{
+  border-radius: 10px;
+  width: 15vw;
+  height: 4vh;
+  border:none;
+  text-transform: uppercase;
+  font-family: $font1;
+
+  &:hover{
+    background:#30d691;
+  }
 }
 
 .content {

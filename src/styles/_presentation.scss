@@ -1,19 +1,63 @@
 .presentation{
     display : flex;
     background : black;
+    padding-top : 12vh;
+    flex-direction: column;
+    z-index: 1;
+    color : white;
+    border-bottom: 1px solid red;
+    padding-bottom : 20vh;
+}
+%template {
+    width : 70vw;
+    margin : auto;
 }
 
 .presentation__image{
+    @extend %template;
+    display: flex;
+    justify-content: center;
+ 
 }
 
 .presentation__image img{
-    transform: rotate(180deg);
-    position: absolute;
-    width: 10%;
+    max-width: 20%;
     height: auto;
-    position: absolute;
-    display: block;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.presentation__text{
+    @extend %template;
     
+}
 
+.presentation__skills{
+    display : flex;
+    flex-direction: column;
+    @extend %template;
+}
+.skill__list{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.skill{
+    flex-basis: 33%;
+    border : 1px solid white;
+    min-height: 20vh;
+
+    &--left{
+        flex-basis: 100%;
+        display : flex;
+        justify-content: flex-end;
+        border : 1px solid white;
+    }   
 }

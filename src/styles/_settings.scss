@@ -1,4 +1,34 @@
-//$background_header_menu : url(../assets/images/header_cover_menu.jpg);
+
+$fontNavLink : Montserrat-Regular;
+@font-face {
+  font-family: $fontNavLink;
+  src: url(./font/Montserrat-Medium.ttf);
+}
+
+
+
+$fonth1 : Montserrat-Black;
+@font-face {
+  font-family: $fonth1;
+  src: url('./font/Montserrat-Black.ttf');
+}
+$fonth2 : Roboto-Bold;
+@font-face {
+  font-family: $fonth2;
+  src: url('./font/Roboto-Bold.ttf');
+}
+
+$font1-italic : Montserrat-italic;
+@font-face {
+  font-family: $font1-italic;
+  src: url(./font/Montserrat-LightItalic.ttf);
+}
+$font1 : Montserrat-Medium;
+@font-face {
+  font-family: $font1;
+  src: url(./font/Montserrat-Medium.ttf);
+}
+
 
 body {
     margin: 0;
@@ -11,9 +41,16 @@ body {
  
     width: 100vw;
     height: auto;
+    cursor: url('../assets/images/cursorRocket.png'), auto;
   }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+
+  h1 {
+    font-family: $fonth1;
+    color : #FFE0BE;
+    font-size: 35px;
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import email from '../assets/images/email.png';
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
                     <Link to="/" >Yannick Perret</Link>
                 </div>
                 <div className="header__mail">
-                     <p>@ Contact@YannickPerret.com </p>
+                <img src={email} alt="icone pour envoyer un email" /><p> Contact@YannickPerret.com </p>
                 </div>
                 
         </div>

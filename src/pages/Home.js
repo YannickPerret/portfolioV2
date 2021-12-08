@@ -2,6 +2,7 @@ import React from 'react';
 import Covers from '../components/Covers';
 import Header from '../components/Header';
 import Presentation from '../components/Presentation';
+import Skills from '../components/Skills';
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Header/>
             <Covers />
             <Presentation />
+            <Skills />
         </div>
     );
 };

@@ -1,0 +1,51 @@
+.skill_container{
+    max-width: 60vw;
+    margin : auto;
+    margin-top : 12vh;
+    display : flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+
+    &__list{
+        min-height: 500px;
+        min-width: 300px;
+        border : 1px solid black;
+        
+        
+    }
+
+    &__categories{
+        list-style: none;
+        padding:0;
+        
+        
+        
+        & > li{
+            border : 1px solid green;
+            width: 300px;
+            height: 80px;
+            margin-bottom: 1vh;
+            display :flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__cards{
+        border : 1px solid red;
+
+        min-width: 800px;
+        min-height: 800px;
+    }
+}
+
+.skill_card__content{
+
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        text-align: center;
+    }
+}
