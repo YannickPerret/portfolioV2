@@ -87,6 +87,19 @@
 
 }
 
+.workInProgress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 60px;
+  right: -52px;
+  height: 31px;
+  width: 250px;
+  background : red;
+  transform: rotate(45deg);
+}
+
 .cover{
     display : flex;
     min-height: 112vh;

@@ -11,7 +11,10 @@ const Header = () => {
                 <div className="header__mail">
                 <img src={email} alt="icone pour envoyer un email" /><p> Contact@YannickPerret.com </p>
                 </div>
-                
+
+                <div className='workInProgress'>
+                    Work in progess !  :)
+                </div>
         </div>
     );
 };
