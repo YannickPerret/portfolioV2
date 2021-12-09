@@ -1,40 +1,65 @@
+.skill{
+    padding-top : 10vh;
+    background: #000000;
+}
+
 .skill_container{
-    max-width: 60vw;
-    margin : auto;
-    margin-top : 12vh;
+    
     display : flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 70vw;
     padding-bottom: 10vh;
-    border-radius: 10px;
-    border : 1px solid black;
+    margin : auto;
+
+    &__title{
+        flex-basis: 100%;
+    }
 
     &__list{
-        height: 500px;
         min-width: 300px;
-        border : 1px solid black;
-        margin: auto;
+        flex-basis: 25%;
+
+        background: #006475;
+        //background:#043078;
+
+        border-radius: 5px;
     }
 
     &__categories{
         list-style: none;
         padding:0;
+
         
         & > li{
-            border : 1px solid green;
-            width: 300px;
-            height: 80px;
-            margin-bottom: 1vh;
             display :flex;
             align-items: center;
             justify-content: center;
+            //background: #003294;
+            background: #00A5BF;
+
+            width: 100%;
+            height: 80px;
+
+            margin-bottom: 1vh;
+            border-radius: 10px;
+
+            color : whitesmoke;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+
+            &:hover{
+                filter: brightness(120%);
+            }
+            
         }
     }
 
     &__cards{
-
-        min-width: 800px;
-        min-height: 800px;
+        border: 1px solid white;
+        flex-basis: 65%;
+        
     }
 }
 

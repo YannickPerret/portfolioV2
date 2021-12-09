@@ -1,36 +1,61 @@
 const skillData = [
     {
-        "author": "From Scratch",
+        "skill": [
+            ["PHP",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+            ["HTML/CSS",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+            ["Js",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+            ["Scss",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+            ["React",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+        ],
         "content": "      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.",
-        "date": 1621530288602,
         "categorie":"Développement Web",
         "id": 1
     },
     {
-        "author": "From Scratch",
+        "skill": [
+                ["PHP",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["HTML/CSS",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Js",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Scss",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["React",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+    ],
         "content": "      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.",
-        "date": 1621530288602,
         "categorie":"Développement logiciel",
         "id": 2
     },
     {
-        "author": "From Scratch",
+        "skill": [
+                ["PHP",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["HTML/CSS",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Js",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Scss",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["React",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+    ],
         "content": "      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.",
-        "date": 1621530288602,
-        "categorie":"Développement Jeux vidéo et UI",
+        "categorie":"Développement Jeux vidéo / UI",
         "id": 3
     },
     {
-        "author": "From Scratch",
+        "skill": [
+                ["PHP",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["HTML/CSS",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Js",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Scss",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["React",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+    ],
         "content": "      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.",
-        "date": 1621530288602,
         "categorie":"Système et réseau",
         "id": 4
     },
     {
-        "author": "From Scratch",
+        "skill": [
+                ["PHP",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["HTML/CSS",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Js",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["Scss",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+                ["React",  "Création de pagination, espace commentaire, gestions des comptes utilisateurs, blocage de page via permission"],
+    ],
         "content": "      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.",
-        "date": 1621530288602,
         "categorie":"Mes hobbies",
         "id": 5
     }

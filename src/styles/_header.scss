@@ -37,7 +37,7 @@
 }
 
 .stars {
-  background:rgba(0, 0, 0, 0) url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  //background:rgba(0, 0, 0, 0) url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:0;
 }
 
@@ -89,7 +89,7 @@
 
 .cover{
     display : flex;
-    min-height: 100vh;
+    min-height: 112vh;
     background: URL('../assets/images/header_cover3.jpg');
 
     z-index: 2;

@@ -1,12 +1,14 @@
 .presentation{
     display : flex;
-    background : black;
-    padding-top : 12vh;
     flex-direction: column;
+    padding-top : 12vh;
+
     z-index: 1;
     color : white;
-    border-bottom: 1px solid red;
     padding-bottom : 20vh;
+
+    
+    background: url(../assets/images/stars_presentation.png),#000000;
 }
 %template {
     width : 70vw;
@@ -38,26 +40,4 @@
     display : flex;
     flex-direction: column;
     @extend %template;
-}
-.skill__list{
-    display : flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    border-radius: 3px;
-    overflow: hidden;
-}
-
-.skill{
-    flex-basis: 33%;
-    border : 1px solid white;
-    min-height: 20vh;
-
-    &--left{
-        flex-basis: 100%;
-        display : flex;
-        justify-content: flex-end;
-        border : 1px solid white;
-    }   
 }
