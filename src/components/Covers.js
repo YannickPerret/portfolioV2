@@ -8,20 +8,20 @@ const Covers = () => {
             <div className="clouds"></div>
 
             <div className="content">
-                <div className="content__container">
-                    <p className="content__container__text">
+                <div className="container">
+                    <p className="container__text">
                         Develop
                     </p>
                     
-                    <ul className="content__container__list">
-                    <li className="content__container__list__item">your world !</li>
-                    <li className="content__container__list__item">the space !</li>
-                    <li className="content__container__list__item">a good ilusion !</li>
-                    <li className="content__container__list__item">for everybody !</li>
+                    <ul className="container__list">
+                    <li className="container__item">your world !</li>
+                    <li className="container__item">the space !</li>
+                    <li className="container__item">a good ilusion !</li>
+                    <li className="container__item">for everybody !</li>
                     </ul>
                 </div>
 
-                <div className="content__container__button">
+                <div className="content__button">
                     <button className="button__discover">À propos de moi</button>
                     <button className="button__discover">Voir mes projets</button>
 
