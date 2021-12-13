@@ -25,7 +25,7 @@
 }
 
 
-.stars, .clouds {
+.clouds {
   position:absolute;
   top:2%;
   left:0;
@@ -35,12 +35,6 @@
   height:100%;
   display:block;
 }
-
-.stars {
-  //background:rgba(0, 0, 0, 0) url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:0;
-}
-
 
 
 .clouds{
@@ -127,36 +121,21 @@ body::after{
 
 }
 
-.content__container__button{
-  display:flex;
-  margin-top : 5vh;
-  justify-content: space-around;
-  
-}
-.button__discover{
-  border-radius: 10px;
-  width: 15vw;
-  height: 4vh;
-  border:none;
-  text-transform: uppercase;
-  font-family: $font1;
-
-  &:hover{
-    background:#30d691;
-  }
-}
-
 .content {
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
     position: absolute;
     top: 55%;
     left: 50%;
+
     transform: translate(-50%, -50%);
-    height: 170px;
-    overflow:hidden;
+    min-width: 39vw;
     
     font-family: 'Lato', sans-serif;
     font-size: 50px;
-    line-height: 40px;
+    line-height: 47px;
     color: #ecf0f1;
     text-transform: uppercase;
     
@@ -164,7 +143,11 @@ body::after{
       font-weight: 700;
       overflow: hidden;
       height: 40px;
-      padding: 0 40px;
+      padding: 0 35px;
+
+      display :flex;
+      flex-direction: row;
+      flex-wrap: wrap;
   
       &:before {
         content: '[';
@@ -173,7 +156,6 @@ body::after{
   
       &:after {
         content: ']';
-        position: absolute;
         right: 0;
       }
   
@@ -181,7 +163,8 @@ body::after{
         position: absolute;
         top: 0;
         
-        color: #16a085;
+        //color: #16a085;
+        color : rgb(238, 241, 28);
         font-size: 60px;
         line-height: 40px;
         
@@ -194,15 +177,15 @@ body::after{
       }
   
       &__text {
-        display: inline;
-        float: left;
         margin: 0;
       }
   
       &__list {
+        //display: inline;
+        //float : left;
         margin-top: 0;
-        padding-left: 270px;
-        text-align: left;
+        //padding-left: 340px;
+        //text-align: left;
         list-style: none;
         
         -webkit-animation-name: change;
@@ -213,10 +196,32 @@ body::after{
         animation-iteration-count: infinite;
   
         &__item {
-          line-height:40px;
+          line-height:46px;
           margin:0;
         }
       }
+    }
+  }
+
+  .content__container__button{
+    display:flex;
+    margin-top : 5vh;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  .button__discover{
+    flex-basis: 40%;
+    border-radius: 10px;
+    height: 5vh;
+    
+    border:none;
+    text-transform: uppercase;
+    font-family: $font1;
+  
+    &:hover{
+      background:#30d691;
     }
   }
   
