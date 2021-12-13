@@ -10,23 +10,28 @@ const Covers = () => {
             <div className="content">
                 <div className="content__container">
                     <p className="content__container__text">
-                    Explore
+                        Develop
                     </p>
                     
                     <ul className="content__container__list">
-                    <li className="content__container__list__item">world !</li>
+                    <li className="content__container__list__item">your world !</li>
                     <li className="content__container__list__item">the space !</li>
-                    <li className="content__container__list__item">ilusion !</li>
-                    <li className="content__container__list__item">everybody !</li>
+                    <li className="content__container__list__item">a good ilusion !</li>
+                    <li className="content__container__list__item">for everybody !</li>
                     </ul>
                 </div>
-   
 
                 <div className="content__container__button">
-                    <button className="button__discover">À propos de moi</button>           <button className="button__discover">Voir mes projets</button>
+                    <button className="button__discover">À propos de moi</button>
+                    <button className="button__discover">Voir mes projets</button>
 
                 </div>
+
             </div>
+
+
+           
+
             <div className="cover__scroll">
             <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10 9V14.0909" stroke="white" strokeLinecap="round" strokeLinejoin="round"></path>

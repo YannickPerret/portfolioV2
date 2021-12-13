@@ -1,11 +1,11 @@
 
+$primaryColor : #FFE0BE;
+
 $fontNavLink : Montserrat-Regular;
 @font-face {
   font-family: $fontNavLink;
   src: url(./font/Montserrat-Medium.ttf);
 }
-
-
 
 $fonth1 : Montserrat-Black;
 @font-face {
@@ -50,6 +50,6 @@ body {
 
   h1 {
     font-family: $fonth1;
-    color : #FFE0BE;
+    color : $primaryColor;
     font-size: 35px;
   }
