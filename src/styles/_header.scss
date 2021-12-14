@@ -124,33 +124,33 @@ overflow: hidden;
 .content{
   display : flex;
   flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
-  position: absolute;
-  top :50%;
-  left : 50%;
-  transform: translate(-50%, -50%);
+  font-family: 'Lato', sans-serif;
 }
 
 
 .container {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
-  width: 30vw;
+  position : relative;
+  min-width: 680px;
   height: 50px;
 
   overflow: hidden;
  
   padding : 0 35px;
-  font-size: 2.1vw;
+  font-size: 3.1em;
 
   color: #ecf0f1;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 50px;
-  font-family: 'Lato', sans-serif;
+  
 
   &:before{
     content: '[';
@@ -163,7 +163,7 @@ overflow: hidden;
 
   &:after, &:before{
     position: absolute;
-    top: 0;
+    top: -4px;
     color : rgb(238, 241, 28);
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
@@ -179,12 +179,12 @@ overflow: hidden;
   }
 
   &__list{
-    flex : 61%;
-    margin-top: 0;
-    list-style: none;
-
-    line-height: 15%;
+    flex : 63%;
+    margin-top: 0px;
     padding: 0;
+
+    list-style: none;
+    
 
     -webkit-animation-name: change;
     -webkit-animation-duration: 17s;
@@ -195,7 +195,8 @@ overflow: hidden;
   }
   &__item{
     margin : 0;
-    line-height: 50px;
+    overflow: hidden;
+    height: 47px;
   }
 
   @-webkit-keyframes opacity {
@@ -230,18 +231,21 @@ overflow: hidden;
 }
 
 
-
 .content__button{
   display:flex;
-  margin-top : 5vh;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top : 5vh;
+  min-width: 700px;
+  z-index: 5;
   
 }
 .button__discover{
-  flex: 50%;
+  min-width: 40vw;
+  
   border-radius: 10px;
-  height: 5vh;
+  height: 7vh;
   
   border:none;
   text-transform: uppercase;
@@ -249,5 +253,35 @@ overflow: hidden;
 
   &:hover{
     background:#30d691;
+    width: 315px;
   }
 }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 881px) and (max-width: 1280px) { 
+  /* your code */
+   }
+  
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 880px) { 
+     .container{
+       min-width: 85vw;
+       width: 85vw;
+
+       &__list{
+         
+       }
+
+     }
+
+     .content__button{
+       min-width: 85vw;
+       width: 85vw;
+
+     }
+   }
+  
+  /* Landscape phones and down */
+  @media (max-width: 480px) { 
+  /* your code */
+   }

@@ -22,7 +22,7 @@ const Covers = () => {
                 </div>
 
                 <div className="content__button">
-                    <button className="button__discover">À propos de moi</button>
+                    <button className="button__discover">À propos</button>
                     <button className="button__discover">Voir mes projets</button>
 
                 </div>
